@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Navigator Using JS</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <nav class="sidebar close">
+    <div class="pic">
+        <span class="image">
+        <img src="./img1.jpeg"/>
+    </span>
+        <div class="head-text">
+            <span class="name">Rajeshwari Ch</span><br>
+            <span class="role">Web Developer</span>
+        </div>
+        
+    </div>
+
+    <ion-icon name="chevron-forward-outline" class="on"></ion-icon>
+  
+    <div class="menubar">
+        <div class="menu">
+          <span class="searchli">
+                    <ion-icon name="search-outline" class="searchion"></ion-icon>
+                    <input type="text" name="search" placeholder="Search here">
+                </span>
+                 
+
+
+    <ul type="none">
+      
+        <li class="list">
+            <ion-icon name="home-outline" class="on1"></ion-icon>
+            <span>Dashborad</span>
+        </li>
+
+        <li class="list">
+            <ion-icon name="cellular-outline" class="on1"></ion-icon>
+
+            <span>Revenue</span>
+        </li>
+
+        <li class="list">
+            <ion-icon name="notifications-outline" class="on1"></ion-icon>
+            <span>Notification</span>
+        </li>
+
+
+        <li class="list">
+            <ion-icon name="heart-outline" class="on1"></ion-icon>
+
+            <span>Likes</span>
+        </li>
+
+        
+            <li class="list">
+                <ion-icon name="wallet-outline" class="on1"></ion-icon>
+                <span>Wallet</span>
+            </li>
+        
+            <div class="log">
+                <li class="list">
+                    <ion-icon name="log-in-outline" class="on1"></ion-icon>
+
+                    <span>Log out</span>
+                </li>
+
+                <li class="mode">
+                    <div class="moon-sun"></div>
+                    <ion-icon name="moon-outline" class="moon"></ion-icon>
+                    <ion-icon name="sunny-outline" class="sun"></ion-icon>
+                </div>
+                    <span class="dark">Dark Mode</span>
+
+                    <div class="switch">
+                        <span class="spanswitch"></span>
+                        <span class="ball"></span>
+                    </div>
+                </li>
+
+
+            </div>
+    </ul>
+
+  </nav>
+
+  <script src="index.js"></script>
+</body>
+</html>
